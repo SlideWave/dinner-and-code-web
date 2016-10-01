@@ -11,7 +11,7 @@ a {text-decoration:none;color:#45BEEE;}
 .site{width:100%;}
 .site .container{margin:0 auto; width:1366px;}
 nav {float:left;position:relative;font-size:24px;text-transform:uppercase;}
-nav li {display:inline-block;margin:0 1.9em} 
+nav li {display:inline-block;margin:0 1.9em}
 nav ul {padding:27px 0 0 0}
 nav a{color:#fff;font-size:24px;text-transform:uppercase;text-decoration:none;}
 nav li.active a{color:#45BEEE;}
@@ -32,7 +32,7 @@ header h2 {z-index:100;color:#fff; font-size:40px;font-weight:bold; background:#
 #about section:nth-child(2) b{font-size:40px;}
 #about section:nth-child(1) p{padding-right:140px;}
 section .list{margin:44px 0 44px;color:#fff;font-weight:400;}
-section .list ul{padding:0;}
+section .list ul{padding:0; padding-left: 2em; text-indent: -1.5em;}
 section .list li{list-style:none;font-size: 18px;}
 section .list li:before{content:"\002022"; color:#45BEEE;margin-right:23px}
 #about section:nth-child(2){}
@@ -112,7 +112,7 @@ footer a {color:#fff;text-decoration:none;}
 	#about section:nth-child(1) > .tl {display:none;}
 	#about br {display:none;}
 	#about section:nth-child(2){overflow:hidden;padding-top:66px;background-position:67px 45%;}
-	#about section:nth-child(2) .c{width:63%;float:right;}		
+	#about section:nth-child(2) .c{width:63%;float:right;}
 	#what-to-bring .links .meetup{right: 4px; top: 43px;}
 	#faq{background-position:0 bottom;}
 	#faq dl{margin: 0 auto;width:72%;}
@@ -128,7 +128,7 @@ footer a {color:#fff;text-decoration:none;}
 	header h2{width:100%;padding-right:0;}
 	#about section:nth-child(2){background-position:50% 50px;padding-top:230px;}
 	#about section:nth-child(2) .c{float:none;width:auto;}
-	#what-to-bring h1{display:block;width:310px;margin:0 auto;}	
+	#what-to-bring h1{display:block;width:310px;margin:0 auto;}
 	#what-to-bring .links .meetup{position:static;margin-left:55px;margin-bottom:55px;}
 }
 @media (max-width: 500px) {
