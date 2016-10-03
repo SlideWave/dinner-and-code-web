@@ -17,7 +17,7 @@
             	<div class="fixed">
                 	<span class="tl"></span>
                     <div class="container">
-                        <h1><a href="/">Dinner &amp; Code</a></h1>`
+                        <h1><a href="/">Dinner &amp; Code</a></h1>
                         <nav>
                         	<span class="tr"></span>
                             <ul>
@@ -158,6 +158,11 @@
 				if ($(this).position().top <= windscroll) {
 					$('nav li.active').removeClass('active');
 					$('nav li').eq(i).addClass('active');
+					if(i > 0) {
+						$('body').addClass('scrolled');
+					} else {
+						$('body').removeClass('scrolled');
+					}
 				}
 			});
 		}).scroll()
