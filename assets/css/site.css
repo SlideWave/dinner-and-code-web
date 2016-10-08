@@ -20,6 +20,7 @@ header {height:680px;position:relative;background:url(../img/hero.jpg);backgroun
 header .fixed {position:fixed;width:100%;top:0;left:0;z-index:110;}
 header .fixed > .tl{background:#000;height:86px;}
 header h1 {float:left;position:relative;display:block;width:263px;height:227px;background:url(../img/logo.png);text-indent:-6000px;margin:0 0 0 50px;}
+.scrolled header h1{background-size: 122px 105px;background-repeat: no-repeat; background-position: 96px 0;}
 header h1 a{display:block;width:100%;height:100%;}
 header h2 {z-index:100;color:#fff; font-size:40px;font-weight:bold; background:#45BEEE; opacity:.85;text-transform:uppercase;position:absolute;right:0;bottom:100px;padding:20px 170px 20px 40px;width:761px;box-sizing:border-box;}
 
